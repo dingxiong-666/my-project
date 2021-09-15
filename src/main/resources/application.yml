@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://127.0.0.1:3306/spring-boot-vue?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 9090
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+#mybatis-plus:
+#  config-location: classpath:mybatis/mybatis.xml
+#  mapper-locations: classpath:mybatis/mapper/*.xml
